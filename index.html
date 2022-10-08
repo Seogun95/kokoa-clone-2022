@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" />
+        <title>코코아톡</title>
+    </head>
+    <body>
+        <div id="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <!--TODO Wifi Icon-->
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <!--TODO Rotated mode Icon-->
+                <i class="fal fa-sync"></i>
+                <span>110%</span>
+                <!--TODO Batter Icon-->
+                <i class="fas fa-battery-three-quarters"></i>
+                <!--TODO Lightning Icon-->
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <!--STATUS-BAR END-->
+
+        <header class="wellcome-header">
+            <h1 class="wellcome-header__title">Welcome to KakaoTalk</h1>
+            <p class="wellcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
+        </header>
+        <!--Wellcome-header END-->
+        <form id="login-form">
+            <input type="text" placeholder="이메일 또는 전화번호" />
+            <input type="password" placeholder="비밀번호" />
+            <input type="submit" value="로그인" />
+            <input type="submit" value="회원가입" />
+        </form>
+        <a href="#">비밀번호를 잊어버리셨나요?</a>
+        <!--Login-Form END-->
+    </body>
+</html>
