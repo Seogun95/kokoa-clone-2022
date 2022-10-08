@@ -1,0 +1,14 @@
+/*HTML에 style.css를 link로 추가하는것 보다 css파일에 import해주는것이 좋다.*/
+@import '/CSS/reset.css';
+@import '/CSS/status-bar.css';
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: IBMPlexSansKR-Regular;
+}

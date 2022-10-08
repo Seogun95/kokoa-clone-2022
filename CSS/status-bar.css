@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: IBMPlexSansKR-Regular;
-}
-/*=====KokoaTalk CSS Style Start=====*/
-
 /* status-bar의 justify-content를 space-between으로 하면 편하긴 하지만, 모든 아이콘들이 중앙에 정렬되지는 않는다.
 그렇기 때문에 한가지 CSS HACK을 사용하면 좋다. 바로 width: 33%! 사용법은 아래를 참고하면 된다.*/
 #status-bar {
@@ -38,5 +26,3 @@ body {
 .status-bar__column:last-child * {
     margin-right: 5px;
 }
-
-/*=====status-bar END=====*/
