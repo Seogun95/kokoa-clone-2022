@@ -1,0 +1,55 @@
+#login-form div,
+#login-form a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#login-form input {
+    padding: 1rem 0.3rem;
+    font-size: 1rem;
+}
+
+#login-form input::placeholder {
+    opacity: 0.5;
+}
+
+#login-form input:not([type='submit']) {
+    border: none;
+    border-bottom: 1px solid var(--color-gray);
+    transition: border-color 0.2s ease-in-out;
+}
+
+#login-form input:focus {
+    border-color: var(--color-brand1);
+}
+
+.login-form__button {
+    margin: 2rem 0;
+}
+.login-form__button input {
+    margin: 0.3rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--color-brand2);
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-form__button input[value='로그인'],
+.login-form__button input[value='회원가입'] {
+    pointer-events: none;
+}
+
+.login-form__button input[value='로그인'].active,
+.login-form__button input[value='회원가입'].active {
+    background-color: var(--color-brand1);
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
