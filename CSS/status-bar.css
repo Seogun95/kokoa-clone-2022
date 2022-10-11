@@ -26,3 +26,7 @@
 .status-bar__column:last-child * {
     margin-right: 5px;
 }
+
+.fa-battery-quarter:after {
+    opacity: 1 !important;
+}
