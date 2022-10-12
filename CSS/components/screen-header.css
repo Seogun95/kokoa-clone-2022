@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+    padding: var(--horizontal-space);
 }
 
 .screen-header__title {
@@ -15,7 +15,7 @@
 }
 
 .screen-ad-post {
-    margin: 0 1rem;
+    margin: 0 1rem 2rem;
     display: flex;
 }
 .screen-ad-post img {
