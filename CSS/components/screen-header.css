@@ -1,0 +1,25 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.screen-header__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.screen-header__icon span {
+    padding-left: 1.5rem;
+}
+
+.screen-ad-post {
+    margin: 0 1rem;
+    display: flex;
+}
+.screen-ad-post img {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+}

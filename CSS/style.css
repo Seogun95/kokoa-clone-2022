@@ -1,10 +1,14 @@
 /*HTML에 style.css를 link로 추가하는것 보다 css파일에 import해주는것이 좋다.*/
 @import 'reset.css';
 @import 'variables.css';
-/*Screens*/
-@import 'screens/login-form.css';
+
 /*Components*/
 @import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+@import 'components/screen-header.css';
+
+/*Screens*/
+@import 'screens/login-form.css';
 
 @font-face {
     font-family: 'IBMPlexSansKR-Regular';
@@ -17,8 +21,11 @@
     outline: none;
 }
 
+html {
+    margin: 1rem auto;
+    max-width: 900px;
+}
+
 body {
     font-family: IBMPlexSansKR-Regular;
-    max-width: 900px;
-    margin: 1rem auto;
 }
