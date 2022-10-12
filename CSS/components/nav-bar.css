@@ -6,7 +6,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    max-width: 900px;
+    max-width: 740px;
 }
 .nav__list {
     display: flex;
@@ -19,15 +19,6 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 10px;
-    color: white;
     position: absolute;
     right: -10px;
     top: -15px;
