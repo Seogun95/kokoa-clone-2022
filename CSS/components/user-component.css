@@ -26,7 +26,7 @@
 }
 
 .user-components__text {
-    line-height: 1.4;
+    line-height: 1.7;
 }
 .user-components__title {
     font-size: 1.2rem;
@@ -44,7 +44,7 @@
 }
 
 .user-components__time {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
     display: block;
     font-size: 0.8rem;
     color: var(--color-gray);
