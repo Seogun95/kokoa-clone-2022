@@ -12,6 +12,7 @@
 /*Screens*/
 @import 'screens/login-form.css';
 @import 'screens/friends.css';
+@import 'screens/find.css';
 
 @font-face {
     font-family: 'IBMPlexSansKR-Regular';

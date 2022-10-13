@@ -33,47 +33,27 @@
         <!--FIXME STATUS-BAR END-->
 
         <header class="screen-header">
-            <h1 class="screen-header__title">채팅</h1>
+            <h1 class="screen-header__title">찾기</h1>
             <div class="screen-header__icon">
                 <span><i class="fal fa-search fa-lg"></i></span>
-                <span><i class="fal fa-music fa-lg"></i></span>
-                <span><i class="fal fa-cog fa-lg"></i></span>
+                <span
+                    ><i class="fal fa-cog fa-lg"><span class="badge"></span></i
+                ></span>
             </div>
         </header>
         <!--FIXME SCREEN HEADER END-->
 
-        <a class="screen-ad-post" href="#"><img src="screenshots/ad.jpeg" alt="" /></a>
-        <!--FIXME AD END-->
-
         <main class="main-screen">
-            <div class="user-components">
-                <div class="user-components__column">
-                    <img src="/screenshots/profile2.png" class="user-components_avatar" />
-                    <div class="user-components__text">
-                        <h4 class="user-components__title user-components__title--not-bold">카카오톡</h4>
-                        <h6 class="user-components__subtitle">나의 정보를 확인하려면 이곳을 확인해보세요.</h6>
-                    </div>
-                </div>
-                <div class="user-components__column">
-                    <span class="user-components__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
+            <div class="find-icons">
+                <div class="find-icons__icon"><i class="fas fa-barcode-read"></i><span>QR 코드</span></div>
+                <div class="find-icons__icon"><i class="fal fa-address-book"></i><span>연락처 등록</span></div>
+                <div class="find-icons__icon"><i class="fad fa-fingerprint"></i><span>ID 찾기</span></div>
+                <div class="find-icons__icon"><i class="far fa-envelope-open"></i><span>초대</span></div>
             </div>
-
-            <div class="user-components">
-                <div class="user-components__column">
-                    <img src="/screenshots/profile2.png" class="user-components_avatar" />
-                    <div class="user-components__text">
-                        <h4 class="user-components__title user-components__title--not-bold">카카오톡</h4>
-                        <h6 class="user-components__subtitle">나의 정보를 확인하려면 이곳을 확인해보세요.</h6>
-                    </div>
-                </div>
-                <div class="user-components__column">
-                    <span class="user-components__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">추천 친구</h6>
+                <span class="recommended-friends__subtitle">추천하는 친구가 존재하지 않습니다.</span>
             </div>
-            <!--FIXME USER COMPONENTS END-->
         </main>
 
         <nav class="nav">
@@ -84,11 +64,11 @@
                 <li calss="nav__btn">
                     <a class="nav__link" href="chats.html">
                         <span class="nav__notification badge">1</span>
-                        <i class="fas fa-comment fa-2x"></i
+                        <i class="far fa-comment fa-2x"></i
                     ></a>
                 </li>
                 <li calss="nav__btn">
-                    <a class="nav__link" href="find.html"><i class="fal fa-search fa-2x"></i></a>
+                    <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
                 </li>
                 <li calss="nav__btn">
                     <a class="nav__link" href="more.html">
