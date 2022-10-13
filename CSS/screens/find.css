@@ -44,3 +44,77 @@
     justify-content: center;
     align-items: center;
 }
+
+.open-caht__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.open-caht__header * {
+    color: var(--color-gray);
+    font-size: 0.825rem;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.open-post__title {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+}
+.open-post__tags {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: var(--color-gray);
+}
+
+.open-post__members {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+.open-post__members * {
+    padding-right: 5px;
+    font-size: 0.8rem;
+    color: var(--color-gray);
+}
+
+.open-post__members img {
+    border-radius: 50%;
+    width: 25px;
+}
+.open-post__active {
+    color: hotpink;
+}
+
+.open-post__album {
+    position: relative;
+}
+.open-post__album img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.open-post__like-count {
+    background: rgb(0 0 0 / 46%);
+    border-radius: 10px;
+    padding: 0.3rem 0.5rem 0.25rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    font-size: 0.625rem;
+}
+.open-post__like-count span {
+    margin-left: 0.25rem;
+}

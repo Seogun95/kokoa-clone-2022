@@ -37,3 +37,8 @@ body {
 .main-screen {
     padding: 0 var(--horizontal-space);
 }
+
+.divider::before {
+    content: '|';
+    color: var(--color-gray);
+}
