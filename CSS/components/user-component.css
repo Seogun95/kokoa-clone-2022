@@ -43,7 +43,9 @@
     font-size: 0.9rem;
     color: var(--color-gray);
 }
-
+.user-components__subtitle i {
+    color: tomato;
+}
 .user-components__time {
     margin-bottom: 0.3rem;
     display: block;
