@@ -6,26 +6,6 @@
     height: 5px;
     padding: 0 !important;
 }
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-.find-icons__icon i {
-    font-size: 1.2rem;
-    font-weight: 200;
-}
-
-.find-icons__icon span {
-    padding-top: 1.4rem;
-}
 
 .recommended-friends {
     padding: 1rem 0;

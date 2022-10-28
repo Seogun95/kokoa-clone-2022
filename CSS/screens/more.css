@@ -1,0 +1,29 @@
+.more-suggestions {
+    margin-top: 1.5rem;
+    border-top: var(--main-border);
+    padding-top: 1.5rem;
+}
+
+.more-suggestions__title {
+    margin-bottom: 1.5rem;
+}
+
+.more-suggestions__icons {
+    display: flex;
+    grid-gap: 20px;
+}
+.more-suggestion__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.more-suggestion__icon-img img {
+    width: 50px;
+}
+
+.more-suggestion__icon-title {
+    color: var(--color-gray);
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+}
