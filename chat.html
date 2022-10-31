@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link rel="stylesheet" href="CSS/style.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+            integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+            crossorigin="anonymous"
+        ></script>
+        <title>코코아톡</title>
+    </head>
+    <body id="chat-screen">
+        <!--FIXME START BODY-->
+        <div id="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fal fa-sync"></i>
+                <span>11%</span>
+                <i class="fad fa-battery-quarter fa-lg" style="--fa-primary-color: #f41b00; --fa-secondary-color: #000"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <!--FIXME STATUS-BAR END-->
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+            </div>
+            <div class="alt-header__column">
+                <div class="alt-header__title">서근</div>
+            </div>
+            <div class="alt-header__column">
+                <span> <i class="far fa-search fa-lg"></i></span>
+                <span><i class="far fa-bars fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">2022년 10월 28일, 금요일</div>
+
+            <div class="message-row">
+                <img src="screenshots/profile1.png" alt="" />
+                <div class="message-row__content">
+                    <span class="message__author">서근</span>
+                    <div class="message__info">
+                        <span class="message__bubble">안녕</span>
+                        <span class="message__time">21:22</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row">
+                <img src="screenshots/profile1.png" alt="" />
+                <div class="message-row__content">
+                    <span class="message__author">서근</span>
+                    <div class="message__info">
+                        <span class="message__bubble">안녕</span>
+                        <span class="message__time">21:22</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

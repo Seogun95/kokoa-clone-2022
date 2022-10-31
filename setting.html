@@ -32,57 +32,42 @@
         </div>
         <!--FIXME STATUS-BAR END-->
 
-        <header class="screen-header">
-            <h1 class="screen-header__title">친구</h1>
-            <div class="screen-header__icon">
-                <span><i class="fal fa-search fa-lg"></i></span>
-                <span><i class="fal fa-music fa-lg"></i></span>
-                <span
-                    ><a href="setting.html"><i class="fal fa-cog fa-lg"></i></a
-                ></span>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="more.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+            </div>
+            <div class="alt-header__column">
+                <div class="alt-header__title">설정</div>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="far fa-search fa-lg"></i></span>
             </div>
         </header>
-        <!--FIXME SCREEN HEADER END-->
-
-        <a class="screen-ad-post" href="#"><img src="screenshots/ad.jpeg" alt="" /></a>
-        <!--FIXME AD END-->
 
         <main class="main-screen">
-            <div class="user-components">
-                <div class="user-components__column">
-                    <img src="/screenshots/profile1.png" class="user-components_avatar user-components_avatar-xl" />
-                    <div class="user-components__text">
-                        <h4 class="user-components__title">서근</h4>
-                        <!-- <h6 class="user-components__subtitle">오늘도 빡코딩 하는 나...</h6> -->
+            <ul class="setting-list">
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fal fa-user-lock"></i>
+                        <span>카카오계정</span>
                     </div>
-                </div>
-                <div class="user-components__column"></div>
-            </div>
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header"><span>채널</span><i class="fas fa-chevron-up"></i></div>
-                <div class="user-components">
-                    <div class="user-components__column">
-                        <img src="/screenshots/profile2.png" class="user-components_avatar" />
-                        <div class="user-components__text">
-                            <h4 class="user-components__title user-components__title--not-bold">채널</h4>
-                            <!-- <h6 class="user-components__subtitle">오늘도 빡코딩 하는 나...</h6> -->
-                        </div>
-                    </div>
-                    <div class="user-components__column">
-                        <div>
-                            <span>2</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--FIXME USER COMPONENTS END-->
+                    <div class="settings__setting-column">seogun1302@gmail.com</div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column"><i class="fal fa-lock-alt"></i><span>개인/보안</span></div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column"><i class="fal fa-user"></i><span>친구</span></div>
+                    <div class="settings__setting-column"></div>
+                </li>
+            </ul>
         </main>
 
         <nav class="nav">
             <ul class="nav__list">
                 <li calss="nav__btn">
-                    <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+                    <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
                 </li>
                 <li calss="nav__btn">
                     <a class="nav__link" href="chats.html">
